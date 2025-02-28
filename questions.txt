@@ -1,0 +1,1206 @@
+<question> Что такое безопасность программного обеспечения?  
+   <variant>  Защита программных систем от несанкционированного доступа, изменения или уничтожения данных  
+   <variant> Инструмент для тестирования производительности программного обеспечения  
+   <variant> Процесс создания пользовательского интерфейса  
+   <variant> Метод оптимизации работы ПО  
+   <variant> Модель разработки программного обеспечения  
+
+<question> Какие три принципа включены в CIA-триаду?  
+   <variant>  Конфиденциальность, целостность, доступность  
+   <variant> Уязвимость, угроза, риск  
+   <variant> Атака, защита, восстановление  
+   <variant> Прозрачность, безопасность, масштабируемость  
+   <variant> Конфиденциальность, устойчивость, доступность  
+
+<question> Какой стандарт описывает управление информационной безопасностью?  
+   <variant>  ISO/IEC  
+   <variant> OWASP  
+   <variant> NIST Cybersecurity Framework  
+   <variant> GDPR  
+   <variant> COBIT  
+
+<question> Что такое SQL- инъекция?  
+   <variant>  Вставка вредоносных SQL- запросов в запросы к базе данных  
+   <variant> Метод шифрования данных  
+   <variant> Уязвимость, связанная с доступом к API  
+   <variant> Тип атаки на сетевой трафик  
+   <variant> Протокол передачи данных  
+
+<question> Какая из угроз безопасности относится к XSS?  
+   <variant>  Межсайтовый скриптинг  
+   <variant> Межсайтовая подделка запросов  
+   <variant> Инъекция в файлы конфигурации  
+   <variant> Вредоносное ПО  
+   <variant> Кража данных из API  
+
+<question> Какой процесс включает меры безопасности на всех этапах разработки ПО?  
+   <variant>  Secure Software Development Lifecycle (SSDLC)  
+   <variant> Agile Software Development  
+   <variant> Extreme Programming (XP)  
+   <variant> Continuous Integration/Continuous Deployment (CI/CD)  
+   <variant> Scrum  
+
+<question> Какой инструмент используется для тестирования безопасности веб-приложений?  
+   <variant>  OWASP ZAP  
+   <variant> GitHub Actions  
+   <variant> Jenkins  
+   <variant> Selenium  
+   <variant> JIRA  
+
+<question> Что является примером безопасной практики в кодировании?  
+   <variant>  Использование параметризованных запросов для предотвращения SQL-инъекций  
+   <variant> Написание кода без комментариев  
+   <variant> Максимизация производительности за счет отключения шифрования  
+   <variant> Использование паролей в открытом виде в коде  
+   <variant> Пропуск тестирования функционала  
+
+<question> Какой метод используется для защиты данных при передаче?  
+   <variant>  Шифрование  
+   <variant> Хранение в локальной базе данных  
+   <variant> Кеширование  
+   <variant> Логирование  
+   <variant> Сжатие данных  
+
+<question> Какая рекомендация относится к защите от CSRF?  
+    <variant>  Использование токенов аутентификации для каждой сессии  
+    <variant> Хранение паролей в базе данных в открытом виде  
+    <variant> Удаление кук после завершения сессии  
+    <variant> Шифрование данных в файлах конфигурации  
+    <variant> Внедрение многопоточного выполнения запросов  
+
+<question> Что такое симметричное шифрование?  
+   <variant> Метод шифрования, где используется один ключ для шифрования и расшифровки данных  
+   <variant> Метод шифрования, где ключи для шифрования и расшифровки различаются  
+   <variant> Процесс создания цифровой подписи  
+   <variant> Способ хранения зашифрованных данных в облаке  
+   <variant> Метод работы с открытыми данными  
+
+<question> Какой алгоритм является примером асимметричного шифрования?  
+   <variant> RS  
+   <variant> AES  
+   <variant> DES  
+   <variant> MD 
+   <variant> SHA
+
+<question> Для чего используется хеширование в защите данных?  
+   <variant> Для проверки целостности данных  
+   <variant> Для шифрования больших файлов  
+   <variant> Для генерации случайных чисел  
+   <variant> Для создания закрытого ключа  
+   <variant> Для ускорения сетевых запросов  
+
+<question> Какая библиотека в Go используется для работы с криптографией?  
+   <variant> "crypto"  
+   <variant> "hashing"  
+   <variant> "encrypt"  
+   <variant> "secure"  
+   <variant> "tlsconfig"  
+
+<question> Что делает функция Encrypt в криптографическом контексте?  
+   <variant> Шифрует данные, используя указанный алгоритм и ключ  
+   <variant> Расшифровывает зашифрованные данные  
+   <variant> Проверяет подлинность данных  
+   <variant> Генерирует случайный пароль  
+   <variant> Оптимизирует сетевую передачу  
+
+<question> Какой из алгоритмов предназначен для симметричного шифрования?  
+   <variant> AES  
+   <variant> RS  
+   <variant> DS  
+   <variant> SHA
+   <variant> Ed  
+
+<question> Что такое цифровая подпись?  
+   <variant> Электронная подпись, подтверждающая подлинность и целостность данных  
+   <variant> Способ шифрования симметричным ключом  
+   <variant> Механизм создания хеш-суммы  
+   <variant> Инструмент для сжатия данных  
+   <variant> Программа для защиты от вирусов  
+
+<question> Какая функция в пакете crypto используется для создания хешей?  
+   <variant> shaNew()  
+   <variant> encryptNew()  
+   <variant> tlsConfig()  
+   <variant> hashOpen()  
+   <variant> datSign()  
+
+<question> Для чего используется TLS в сетевых приложениях?  
+   <variant> Для обеспечения шифрования и безопасности передачи данных  
+   <variant> Для ускорения загрузки файлов  
+   <variant> Для создания симметричных ключей  
+   <variant> Для управления базами данных  
+   <variant> Для сжатия HTTP - запросов  
+
+<question> Какой из перечисленных методов безопасен для хранения паролей?  
+    <variant> Использование хеширования с солью  
+    <variant> Хранение паролей в открытом виде  
+    <variant> Шифрование паролей с помощью AES без дополнительных мер  
+    <variant> Хранение паролей в формате Base 
+    <variant> Хранение паролей на стороне клиента  
+
+<question> Что такое CI/CD?  
+   <variant> Непрерывная интеграция и доставка  
+   <variant> Контролируемая инфраструктура и разработка  
+   <variant> Система контроля версий  
+   <variant> Методология управления проектами  
+   <variant> Технология контейнеризации  
+
+<question> Какой инструмент часто используется для настройки CI/CD конвейеров?  
+   <variant> Jenkins  
+   <variant> Photoshop  
+   <variant> MySQL  
+   <variant> Kubernetes  
+   <variant> IntelliJ IDEA  
+
+<question> Какой этап следует после тестирования в CI/CD конвейере?  
+   <variant> Развертывание  
+   <variant> Планирование  
+   <variant> Проектирование  
+   <variant> Кодирование  
+   <variant> Архивирование  
+
+<question> Что включает в себя автоматизация тестирования?  
+   <variant> Использование инструментов для выполнения тестов  
+   <variant> Ручное выполнение тестов  
+   <variant> Только разработку тестовых сценариев  
+   <variant> Проверку дизайна системы  
+   <variant> Анализ пользовательского опыта  
+
+<question> Какой вид тестирования помогает определить производительность системы под нагрузкой?  
+   <variant> Нагрузочное тестирование  
+   <variant> Модульное тестирование  
+   <variant> Регрессионное тестирование  
+   <variant> Тестирование интерфейсов  
+   <variant> Интеграционное тестирование  
+
+<question> Что является основным преимуществом CI/CD?  
+   <variant> Быстрое обнаружение ошибок  
+   <variant> Увеличение затрат  
+   <variant> Сложность интеграции  
+   <variant> Замедление разработки  
+   <variant> Увеличение ручного тестирования  
+
+<question> Какая система управления версиями чаще всего используется в CI/CD?  
+   <variant> Git  
+   <variant> Excel  
+   <variant> Oracle  
+   <variant> FTP  
+   <variant> Windows Explorer  
+
+<question> Что позволяет делать стратегия "Blue-Green Deployment"?  
+   <variant> Развертывать изменения без прерывания работы системы  
+   <variant> Увеличивать нагрузку на систему  
+   <variant> Ускорять процесс написания кода  
+   <variant> Удалять устаревший код  
+   <variant> Генерировать тестовые данные  
+
+<question> Что такое "Pipeline" в контексте CI/CD?  
+   <variant> Последовательность шагов для построения, тестирования и развертывания  
+   <variant> Данные в базе данных  
+   <variant> Сетевой запрос  
+   <variant> Документация проекта  
+   <variant> Указатель на файл  
+
+<question> Какая команда в Git используется для интеграции изменений в основную ветку?  
+    <variant> Merge  
+    <variant> Clone  
+    <variant> Commit  
+    <variant> Fetch  
+    <variant> Log  
+
+<question> Что обозначает аббревиатура CRUD?  
+<variant>  Create, Read, Update, Delete  
+<variant>  Create, Run, Update, Drop  
+<variant>  Connect, Read, Update, Delete  
+<variant>  Code, Read, Use, Delete  
+<variant>  Compile, Run, Update, Delete  
+
+ <question> Какой оператор SQL используется для извлечения данных из таблицы?  
+<variant>  SELECT  
+<variant>  INSERT  
+<variant>  DELETE  
+<variant>  UPDATE  
+<variant>  ALTER  
+
+ <question> Какой из приведённых ниже типов баз данных является NoSQL?  
+<variant>  MongoDB  
+<variant>  MySQL  
+<variant>  PostgreSQL  
+<variant>  SQLite  
+<variant>  Oracle  
+
+ <question> Какой метод используется для обновления записи в SQL?  
+<variant>  UPDATE  
+<variant>  MODIFY  
+<variant>  CHANGE  
+<variant>  SET  
+<variant>  REPLACE  
+
+ <question> Какой вид данных чаще всего хранится в NoSQL базах?  
+<variant>  Неструктурированные данные  
+<variant>  Табличные данные  
+<variant>  Только текстовые файлы  
+<variant>  Только графические файлы  
+<variant>  Только числовые данные  
+
+ <question> Как называется ключевая особенность реляционных баз данных?  
+<variant>  Связи между таблицами  
+<variant>  Хранение документов  
+<variant>  Отсутствие схемы  
+<variant>  Поддержка JSON  
+<variant>  Использование деревьев  
+
+ <question> Что из перечисленного является типичным примером SQL-запроса для удаления записи?  
+<variant>  DELETE FROM users WHERE id=1;  
+<variant>  REMOVE FROM users WHERE id=1;  
+<variant>  ERASE users id=1;  
+<variant>  DROP RECORD id=1 FROM users;  
+<variant>  PURGE FROM users WHERE id=1;  
+
+ <question> Какой механизм масштабирования характерен для NoSQL баз данных?  
+<variant>  Горизонтальное масштабирование  
+<variant>  Вертикальное масштабирование  
+<variant>  Каскадное масштабирование  
+<variant>  Симметричное масштабирование  
+<variant>  Параллельное масштабирование  
+
+ <question> Какая команда используется для добавления новой записи в SQL?  
+<variant>  INSERT INTO  
+<variant>  ADD RECORD  
+<variant>  PUT INTO  
+<variant>  APPEND ROW  
+<variant>  SAVE RECORD  
+
+ <question> Какая структура данных наиболее часто используется в базах данных типа MongoDB?  
+<variant>  JSON-документы  
+<variant>  Таблицы  
+<variant>  Графики  
+<variant>  Массивы строк  
+<variant>  Двумерные матрицы  
+
+ <question> Что из перечисленного является ключевой характеристикой блокчейна?  
+<variant>  Децентрализация  
+<variant>  Централизованное управление  
+<variant>  Отсутствие шифрования  
+<variant>  Использование только SQL-баз данных  
+<variant>  Лимитированный доступ для пользователей  
+
+ <question> Как называется основной элемент данных в блокчейне?  
+<variant>  Блок  
+<variant>  Таблица  
+<variant>  Узел  
+<variant>  Файл  
+<variant>  Строка  
+
+ <question> Какой алгоритм консенсуса используется в блокчейне Bitcoin?  
+<variant>  Proof of Work (PoW)  
+<variant>  Proof of Stake (PoS)  
+<variant>  Delegated Proof of Stake (DPoS)  
+<variant>  Practical Byzantine Fault Tolerance (PBFT)  
+<variant>  Proof of Authority (PoA)  
+
+ <question> Какую роль выполняет узел (node) в блокчейн-сети?  
+<variant>  Проверяет и сохраняет транзакции  
+<variant>  Контролирует доступ к сети  
+<variant>  Управляет пользователями  
+<variant>  Хранит резервные копии данных  
+<variant>  Устанавливает комиссионные сборы  
+
+ <question> Какой язык программирования часто используется для разработки смарт-контрактов?  
+<variant>  Solidity  
+<variant>  Python  
+<variant>  C++  
+<variant>  Ruby  
+<variant>  Go  
+
+ <question> Что из перечисленного является преимуществом использования блокчейна?  
+<variant>  Прозрачность и неизменяемость данных  
+<variant>  Высокая скорость обработки больших данных  
+<variant>  Полная анонимность пользователей  
+<variant>  Отсутствие необходимости в хранилищах данных  
+<variant>  Интеграция с устаревшими системами  
+
+ <question> Что такое смарт-контракт?  
+<variant>  Программа, которая автоматически выполняет условия соглашения  
+<variant>  Графическая схема работы блокчейна  
+<variant>  Протокол передачи данных в сети  
+<variant>  Интерфейс для пользователей  
+<variant>  Сервис для создания токенов  
+
+ <question> Какой модуль из стандартной библиотеки Go полезен при разработке блокчейн-приложений?  
+<variant>  crypto  
+<variant>  net/http  
+<variant>  os  
+<variant>  math  
+<variant>  fmt  
+
+ <question> Что такое транзакция в блокчейне?  
+<variant>  Операция записи данных в блок  
+<variant>  Соединение между узлами сети  
+<variant>  Программа, управляющая консенсусом  
+<variant>  Протокол шифрования данных  
+<variant>  Процесс подтверждения пользователя  
+
+ <question> Как называется группа блоков, которая объединяет транзакции?  
+<variant>  Цепочка блоков  
+<variant>  Структура данных  
+<variant>  Таблица записей  
+<variant>  Хранилище логов  
+<variant>  Узловая сеть  
+
+ <question> Какой инструмент встроен в Go для профилирования производительности?  
+<variant>  pprof  
+<variant>  memprof  
+<variant>  gcviewer  
+<variant>  perfcheck  
+<variant>  traceprof  
+
+ <question> Какой тип профилирования помогает выявить "узкие места" в использовании процессора?  
+<variant>  CPU профилирование  
+<variant>  Memory профилирование  
+<variant>  Block профилирование  
+<variant>  Goroutine профилирование  
+<variant>  Network профилирование  
+
+ <question> Какой пакет в Go используется для анализа потребления памяти?  
+<variant>  runtime/pprof  
+<variant>  net/http  
+<variant>  os/exec  
+<variant>  time/track  
+<variant>  bufio  
+
+ <question> Какой подход лучше всего помогает уменьшить количество аллокаций памяти в Go?  
+<variant>  Использование пула объектов  
+<variant>  Увеличение числа горутин  
+<variant>  Уменьшение размера стека  
+<variant>  Использование больше переменных глобального уровня  
+<variant>  Оптимизация стандартной библиотеки  
+
+ <question> Какой инструмент Go используется для визуализации результатов профилирования?  
+<variant>  go tool pprof  
+<variant>  go profiler analyze  
+<variant>  go run perf  
+<variant>  gomon visualize  
+<variant>  gooptimize  
+
+ <question> Что означает GC в контексте Go?  
+<variant>  Garbage Collection  
+<variant>  Goroutine Control  
+<variant>  Go Compiler  
+<variant>  Global Context  
+<variant>  General Cache  
+
+ <question> Какое профилирование помогает понять, где приложение блокируется?  
+<variant>  Block профилирование  
+<variant>  Memory профилирование  
+<variant>  Heap профилирование  
+<variant>  CPU профилирование  
+<variant>  Goroutine профилирование  
+
+ <question> Какой подход позволяет сократить потребление памяти массивами в Go?  
+<variant>  Использование срезов вместо массивов  
+<variant>  Использование фиксированных размеров массивов  
+<variant>  Увеличение размера буфера  
+<variant>  Копирование массива вместо передачи по ссылке  
+<variant>  Использование неупорядоченных коллекций  
+
+ <question> Какая функция из стандартной библиотеки Go позволяет вручную запускать сборку мусора?  
+<variant>  runtimGC()  
+<variant>  memoryRunGC()  
+<variant>  osClearMemory()  
+<variant>  gStart()  
+<variant>  profilerClean()  
+
+ <question> Что помогает определить частые контексты переключений между горутинами?  
+<variant>  Tracing (трассировка)  
+<variant>  Heap профилирование  
+<variant>  CPU профилирование  
+<variant>  Лимитирование потоков  
+<variant>  Статический анализ кода  
+
+ <question> Какой язык используется для разработки интерфейса в Flutter?  
+<variant>  Dart  
+<variant>  Go  
+<variant>  Kotlin  
+<variant>  Swift  
+<variant>  Java  
+
+ <question> Какой протокол чаще всего используется для связи Flutter-приложения с backend на Go?  
+<variant>  HTTP/HTTPS  
+<variant>  FTP  
+<variant>  SMTP  
+<variant>  SSH  
+<variant>  SOAP  
+
+ <question> Какой инструмент Go часто используется для создания RESTful API?  
+<variant>  net/http  
+<variant>  fmt  
+<variant>  os  
+<variant>  io/ioutil  
+<variant>  strconv  
+
+ <question> Как называется популярный пакет для сериализации данных между Flutter и backend на Go?  
+<variant>  JSON  
+<variant>  XML  
+<variant>  ProtoBuf  
+<variant>  YAML  
+<variant>  CSV  
+
+ <question> Что необходимо для успешной интеграции Flutter с backend на Go?  
+<variant>  Совместимый API  
+<variant>  Использование SQL- базы данных  
+<variant>  Обязательное наличие gRPC  
+<variant>  Минимальное количество запросов  
+<variant>  Отсутствие middleware  
+
+ <question> Какой пакет в Go можно использовать для реализации gRPC-сервера?  
+<variant>  googlgolangorg/grpc  
+<variant>  net/rpc  
+<variant>  go/server  
+<variant>  runtime/rpc  
+<variant>  grpc/pkg  
+
+ <question> Какой подход помогает Flutter-приложению поддерживать работу без подключения к сети?  
+<variant>  Локальное кэширование данных  
+<variant>  Использование GraphQL  
+<variant>  Подключение напрямую к базе данных  
+<variant>  Минимизация вызовов API  
+<variant>  Ограничение запросов по времени  
+
+ <question> Какой пакет в Dart используется для работы с HTTP-запросами?  
+<variant>  http  
+<variant>  fetch  
+<variant>  request  
+<variant>  dio  
+<variant>  jsonDecode  
+
+ <question> Какую библиотеку можно использовать для управления состоянием в Flutter?  
+<variant>  Provider  
+<variant>  React  
+<variant>  Redux-go  
+<variant>  Bloc-go  
+<variant>  StateControl  
+
+ <question> Что из перечисленного может служить преимуществом использования Go для backend?  
+<variant>  Высокая производительность и параллелизм  
+<variant>  Обязательная привязка к Google Cloud  
+<variant>  Наличие встроенного UI- фреймворка  
+<variant>  Поддержка только больших данных  
+<variant>  Использование только NoSQL баз данных  
+
+ <question> Что является основным принципом безопасности программного обеспечения?  
+<variant>  Конфиденциальность, целостность и доступность (CIA)  
+<variant>  Скорость, надежность и удобство  
+<variant>  Ограничение доступа пользователей  
+<variant>  Высокая производительность  
+<variant>  Гибкость настройки  
+
+ <question> Что из перечисленного предотвращает SQL- инъекции?  
+<variant>  Использование параметризованных запросов  
+<variant>  Хранение паролей в открытом виде  
+<variant>  Увеличение времени ожидания запросов  
+<variant>  Сжатие базы данных  
+<variant>  Ограничение длины запросов  
+
+ <question> Какой метод хеширования считается безопасным для хранения паролей?  
+<variant>  bcrypt  
+<variant>  MD1  
+<variant>  SHA-2
+<variant>  CRC11
+<variant>  Base22 
+
+ <question> Какой механизм используется для защиты данных, передаваемых по сети?  
+<variant>  TLS (Transport Layer Security)  
+<variant>  HTTP  
+<variant>  FTP  
+<variant>  DNS  
+<variant>  ICMP  
+
+
+ <question> Что из перечисленного является уязвимостью программного обеспечения?  
+<variant>  Cross - Site Scripting (XSS)  
+<variant>  Load Balancing  
+<variant>  Горизонтальное масштабирование  
+<variant>  Динамическое связывание библиотек  
+<variant>  Использование REST API  
+
+ <question> Какой из перечисленных подходов помогает предотвратить утечку данных?  
+<variant>  Шифрование данных в покое и при передаче  
+<variant>  Сжатие данных перед передачей  
+<variant>  Увеличение размера ключей шифрования  
+<variant>  Использование одноуровневой архитектуры  
+<variant>  Ограничение количества пользователей  
+
+ <question> Какой стандарт безопасности касается платежных систем?  
+<variant>  PCI DSS  
+<variant>  HIPAA  
+<variant>  ISO/IEC 11001
+<variant>  SOC 1
+<variant>  NIST  
+
+
+ <question> Какой стандарт используется для оценки уровня безопасности веб-приложений?  
+<variant>  OWASP Top 10  
+<variant>  ISO/IEC 11001
+<variant>  GDPR  
+<variant>  SOC 1 
+<variant>  PCI DSS  
+
+
+
+ <question> Какой метод хеширования считается безопасным для хранения паролей?  
+<variant>  bcrypt  
+<variant>  MD2 
+<variant>  SHA-2 
+<variant>  CRC11  
+<variant>  Base22
+
+
+ <question> Какой механизм используется для защиты данных, передаваемых по сети?  
+<variant>  TLS (Transport Layer Security)  
+<variant>  HTTP  
+<variant>  FTP  
+<variant>  DNS  
+<variant>  ICMP 
+
+
+ <question> Что из перечисленного помогает защитить приложения от DDoS-атак?  
+<variant>  Использование CDN и WAF  
+<variant>  Увеличение числа пользователей  
+<variant>  Отказ от протокола HTTPS  
+<variant>  Ограничение размера базы данных  
+<variant>  Удаление кэша  
+
+
+ <question> Какой из нижеперечисленных принципов применяется для минимизации потенциального ущерба от взлома?  
+<variant>  Принцип минимальных привилегий  
+<variant>  Принцип высокой доступности  
+<variant>  Принцип гибкой настройки  
+<variant>  Принцип масштабируемости  
+<variant>  Принцип отказа от резервных копий  
+
+
+ <question> Какой пакет стандартной библиотеки Go используется для криптографии?  
+<variant>  crypto  
+<variant>  secure  
+<variant>  encryption  
+<variant>  cryptanalysis  
+<variant>  hash  
+
+
+ <question> Какой алгоритм симметричного шифрования поддерживается стандартной библиотекой Go?  
+<variant>  AES  
+<variant>  RSA  
+<variant>  SHA - 123
+<variant>  MD1  
+<variant>  Elliptic Curve  
+
+
+ <question> Какой метод хеширования паролей рекомендуется в Go для повышения безопасности?  
+<variant>  bcrypt  
+<variant>  SHA-1
+<variant>  MD2 
+<variant>  Base22
+<variant>  CRC11  
+
+
+ <question> Какой протокол используется для защиты данных при передаче по сети?  
+<variant>  TLS (Transport Layer Security)  
+<variant>  HTTP  
+<variant>  FTP  
+<variant>  DNS  
+<variant>  SSH  
+
+ <question> Какую функцию из пакета crypto/rand можно использовать для генерации криптографически безопасных случайных чисел?  
+<variant>  ranRead  
+<variant>  ranSeed  
+<variant>  ranIntn  
+<variant>  ranFloat-1
+<variant>  ranStream  
+
+
+ <question> Какой тип ключей используется в асимметричной криптографии?  
+<variant>  Открытый и закрытый ключ  
+<variant>  Одинаковые ключи  
+<variant>  Временные ключи  
+<variant>  Статические ключи  
+<variant>  Генерируемые пароли  
+
+
+ <question> Что из перечисленного можно использовать для цифровой подписи данных в Go?  
+<variant>  RSA  
+<variant>  SHA-123
+<variant>  Base22 
+<variant>  HMAC  
+<variant>  GCM  
+
+ <question> Какой метод обеспечивает целостность данных при их передаче?  
+<variant>  Хеширование  
+<variant>  Шифрование  
+<variant>  Сжатие  
+<variant>  Пакетирование  
+<variant>  Разделение  
+
+
+ <question> Какой алгоритм асимметричного шифрования поддерживается в пакете crypto/rsa?  
+<variant>  RSA-OAEP  
+<variant>  ECC  
+<variant>  AES-CBC  
+<variant>  HMAC  
+<variant>  SHA-123  
+
+ <question> Какую библиотеку можно использовать для реализации современных методов шифрования и подписи в Go?  
+<variant>  golangorg/x/crypto  
+<variant>  githucom/secure/encrypt  
+<variant>  io/ioutil  
+<variant>  fmt  
+<variant>  math/big  
+
+<question> Какой пакет используется в Go для работы с PostgreSQL/MySQL?  
+  <variant> database/sql  
+   <variant> http  
+  <variant> io  
+   <variant> os  
+   <variant>json
+
+
+<question> Какое расширение нужно для работы с PostgreSQL?  
+   <variant> github.com/lib/pq  
+  <variant> github.com/mysql/go  
+  <variant> github.com/sqlite/sql  
+  <variant>github.com/db/postgres  
+   <variant> github.com/sql/postgresql
+
+<question> Какой метод используется для открытия соединения с базой данных?  
+  <variant>sql.Open()  
+   <variant>sql.Connect()  
+   <variant>sql.New()  
+   <variant>sql.Start()  
+   <variant>sql.Init()
+
+<question> Что возвращает функция sql.Open()?  
+   <variant> Объект типа sql.DB  
+  <variant> Объект типа sql.Conn  
+   <variant> Объект типа sql.Rows  
+  <variant> Ничего (void)  
+   <variant>Строку подключения  
+
+<question> Какой метод проверяет доступность соединения с базой данных?  
+   <variant>DB.Ping()  
+   <variant> DB.Check()  
+   <variant> DB.Validate()  
+   <variant>DB.Start()  
+   <variant>DB.Open()
+
+<question> Какой метод используется для выполнения SQL-запросов на чтение?  
+   <variant>DB.Query()  
+  <variant>DB.Exec()  
+   <variant> DB.Scan()  
+   <variant>DB.Insert()  
+   <variant>DB.Read()
+
+<question>Какой метод используется для выполнения SQL-запросов на изменение данных?  
+   <variant>DB.Exec()  
+  <variant>DB.Query()  
+   <variant>DB.Fetch()  
+   <variant>DB.Change()  
+   <variant>DB.Update()
+
+<question> Какой тип данных возвращает метод Query()?  
+   <variant>sql.Rows  
+   <variant>sql.DB  
+   <variant>sql.Conn  
+   <variant>int  
+   <variant>string
+
+<question> Как закрыть соединение с базой данных?  
+   <variant> DB.Close()  
+   <variant> DB.Disconnect()  
+  <variant>DB.End()  
+   <variant> DB.Quit()  
+   <variant> DB.Shutdown()
+
+<question> Что нужно обязательно делать с объектом Rows после работы с ним?  
+    <variant> Close()  
+    <variant>Ping()  
+    <variant>Exec()  
+    <variant>Stop()  
+    <variant>Flush()
+
+<question>Как правильно передавать параметры в запросы для защиты от SQL-инъекций?  
+    <variant>Использовать placeholders (? или $1) в запросах  
+    <variant>Включать параметры напрямую в строку запроса  
+    <variant>Использовать регулярные выражения  
+    <variant>Заключать параметры в кавычки  
+    <variant>Применять метод Escape()  
+
+<question> Какой метод используется для получения одной строки результата?  
+    <variant>QueryRow()  
+    <variant>QueryOne()  
+   <variant>FetchRow()  
+    <variant>Row()  
+   <variant>ScanRow()
+
+<question> Какой тип данных возвращает QueryRow()?  
+    <variant>sql.Row  
+    <variant>sql.Rows  
+    <variant>sql.DB  
+    <variant>int  
+   <variant>string
+
+<question> Как можно начать транзакцию?  
+    <variant> DB.Begin()  
+    <variant> DB.StartTransaction()  
+    <variant> DB.StartTx()  
+    <variant> DB.Transaction()  
+    <variant> DB.OpenTransaction()
+
+<question> Какие методы используются для фиксации или отката транзакции?  
+    <variant> Commit() и Rollback()  
+    <variant> Save() и Undo()  
+    <variant> Complete() и Cancel()  
+    <variant> Finish() и Revert()  
+    <variant> Apply() и Discard()
+
+<question> Какой параметр используется для подключения к локальной базе данных PostgreSQL?  
+    <variant> host=localhost  
+    <variant> address=localhost  
+    <variant> server=localhost  
+    <variant> dbhost=localhost  
+    <variant> url=localhost
+
+<question> Как указать порт подключения к PostgreSQL?  
+    <variant> port=5432  
+    <variant> dbport=5432  
+    <variant> pgport=5432  
+    <variant> connectionport=5432  
+    <variant> sqlport=5432
+
+<question> Какое значение обычно используется для драйвера MySQL?  
+    <variant>mysql  
+    <variant>postgres  
+    <variant>sqlite  
+    <variant>mariadb  
+    <variant>oracle
+
+<question> Как передать данные результата запроса в переменные?  
+    <variant>Scan()  
+    <variant>Assign()  
+    <variant>Fetch()  
+    <variant>Read()  
+    <variant>Parse()
+
+<question> Какой метод завершает транзакцию с фиксацией изменений?  
+    <variant> Commit()  
+    <variant> Close()  
+    <variant> Rollback()  
+    <variant> Complete()  
+    <variant> Save()  
+
+
+<question> Какой стандарт часто используется для документирования API?  
+   <variant> OpenAPI (Swagger)  
+   <variant> RESTful Standard  
+   <variant> API Blueprint  
+   <variant> GraphQL Schema  
+   <variant> OASIS
+
+<question> Что такое unit-тестирование?  
+   <variant> Тестирование отдельных модулей или функций программы  
+   <variant> Тестирование взаимодействия между модулями  
+   <variant> Тестирование графического интерфейса  
+   <variant> Тестирование системы в целом  
+   <variant> Автоматическое исправление ошибок  
+
+<question> Какой инструмент обычно используют для управления задачами документирования в проекте?  
+   <variant> Confluence  
+   <variant> Jenkins  
+   <variant> Docker  
+   <variant> Postman  
+   <variant> Selenium  
+
+<question> Как называется тестирование, которое проверяет всю систему целиком?  
+   <variant> Интеграционное тестирование  
+   <variant> Модульное тестирование  
+   <variant> Функциональное тестирование  
+   <variant> Дымовое тестирование  
+   <variant> Юзабилити-тестирование  
+
+<question> Какой формат документации подходит для генерации автоматических спецификаций API?  
+   <variant> Markdown  
+   <variant> HTML  
+   <variant> DOCX  
+   <variant> PDF  
+   <variant> TXT  
+
+<question> Какой из перечисленных инструментов используется для написания unit-тестов в Go?  
+   <variant> testing  
+   <variant> unittest  
+   <variant> mocktest  
+   <variant> integration  
+   <variant> testify
+
+<question> Что такое мок-объект (mock)?  
+   <variant> Объект, имитирующий поведение реального компонента  
+   <variant> Объект, полностью заменяющий реальный компонент  
+   <variant> Инструмент для создания документации  
+   <variant> Скрипт для миграции данных  
+   <variant> Библиотека для визуализации  
+
+<question> Какой принцип лежит в основе тестирования "черного ящика"?  
+   <variant> Тестирование без знания внутренней структуры кода  
+   <variant> Тестирование только исходного кода  
+   <variant> Тестирование графического интерфейса  
+   <variant> Использование только автоматических тестов  
+   <variant> Тестирование только на конечных устройствах  
+
+<question> Какой формат документации используется для описания архитектуры программного обеспечения?  
+   <variant> UML-диаграммы  
+   <variant> CSV-файлы  
+   <variant> JSON  
+   <variant> XML  
+   <variant> SQL-скрипты  
+
+<question> Какой метод тестирования проверяет производительность системы?  
+    <variant> Нагрузочное тестирование  
+    <variant> Модульное тестирование  
+    <variant> Интеграционное тестирование  
+    <variant> Функциональное тестирование  
+    <variant> Юзабилити-тестирование  
+
+<question> Какое ключевое преимущество автоматического тестирования?  
+    <variant> Снижение трудозатрат на повторяющиеся тесты  
+    <variant> Повышение квалификации тестировщиков  
+    <variant> Уменьшение ошибок при написании кода  
+    <variant> Ускорение времени сборки проекта  
+    <variant> Улучшение пользовательского интерфейса  
+
+<question> Какой инструмент используется для автоматизации тестирования веб-приложений?  
+    <variant> Selenium  
+    <variant> Git  
+    <variant> Docker  
+    <variant> Jenkins  
+    <variant> JIRA  
+
+<question> Какой документ содержит основные сценарии тестирования?  
+    <variant> Тест-план  
+    <variant> API-спецификация  
+    <variant> Руководство пользователя  
+    <variant> Архитектурная документация  
+    <variant> Кодовый стиль  
+
+<question> Как называется тестирование, проводимое пользователями?  
+    <variant> Альфа- и бета-тестирование  
+    <variant> Регрессионное тестирование  
+    <variant> Нагрузочное тестирование  
+    <variant> Автоматическое тестирование  
+    <variant> Интеграционное тестирование  
+
+<question> Какой инструмент используется для анализа покрытия кода тестами в Go?  
+    <variant> go test -cover  
+    <variant> go test -mock  
+    <variant> go build -test  
+    <variant> go vet -coverage  
+    <variant> go run -coverage  
+
+<question> Какой раздел документации описывает установку программного обеспечения?  
+    <variant> Руководство по установке (Installation Guide)  
+    <variant> Руководство пользователя  
+    <variant> Руководство администратора  
+    <variant> Техническая спецификация  
+    <variant> Тест-план  
+
+<question> Как называется процесс подтверждения, что ПО отвечает требованиям заказчика?  
+    <variant> Валидация  
+    <variant> Верфикация  
+    <variant> Тестирование  
+    <variant> Рефакторинг  
+    <variant> Интеграция  
+
+<question> Какой тип тестов проверяет работу исправленных ошибок?  
+    <variant> Регрессионное тестирование  
+    <variant> Интеграционное тестирование  
+    <variant> Модульное тестирование  
+    <variant> Нагрузочное тестирование  
+    <variant> Бета-тестирование  
+
+<question> Что обычно включает README-файл?  
+    <variant> Общее описание проекта и инструкции по запуску  
+    <variant> Полную спецификацию API  
+    <variant> Список багов  
+    <variant> Логи изменений  
+    <variant> Подробные планы тестирования  
+
+<question> Какой инструмент используется для CI/CD?  
+    <variant> Jenkins  
+    <variant> Swagger  
+    <variant> Selenium  
+    <variant> UML  
+    <variant> GitHub Pages  
+
+
+<question>Какой стандартный пакет используется для сортировки в Go?  
+   <variant> sort  
+   <variant> math  
+   <variant> collections  
+   <variant> strings  
+   <variant> utils  
+
+
+
+<question> Какой метод из пакета sort используется для сортировки слайса чисел?  
+   <variant> sort.Ints()  
+   <variant> sort.Slice()  
+   <variant> sort.Sort()  
+   <variant> sort.Floats()  
+   <variant> sort.Strings()  
+
+
+
+<question> Какой метод из пакета sort используется для сортировки строк?  
+  <variant> sort.Strings()  
+   <variant> sort.Ints()  
+   <variant> sort.Sort()  
+   <variant> sort.Slice()  
+   <variant> sort.Floats()  
+
+
+
+<question> Какой метод используется для сортировки слайсов с пользовательскими критериями?  
+   <variant> sort.Slice()  
+   <variant> sort.Custom()  
+   <variant> sort.Interface()  
+   <variant> sort.UserSort()  
+   <variant> sort.SliceStable()  
+
+
+
+<question> Какой интерфейс должен реализовать структура, чтобы ее можно было отсортировать?  
+   <variant> sort.Interface  
+   <variant> sortable.Interface  
+   <variant> collections.Interface  
+   <variant> sort.Struct  
+   <variant> ordering.Interface  
+
+
+
+<question> Какая функция из sort используется для проверки, отсортирован ли слайс?  
+   <variant> sort.IsSorted()  
+   <variant> sort.Check()  
+   <variant> sort.Verify()  
+   <variant> sort.Validate()  
+   <variant> sort.Ordered()  
+
+
+
+<question> Какой метод интерфейса sort.Interface определяет длину коллекции?  
+   <variant> Len()  
+   <variant> Size()  
+   <variant> Count()  
+   <variant> Length()  
+   <variant> Items()  
+
+
+
+<question> Какой метод интерфейса sort.Interface используется для сравнения элементов?  
+   <variant> Less(i, j int) bool  
+   <variant> Compare(i, j int) bool  
+   <variant> Order(i, j int) bool  
+   <variant> Check(i, j int) bool  
+   <variant> Equal(i, j int) bool  
+
+
+
+<question> Какой метод интерфейса sort.Interface меняет местами два элемента?  
+   <variant> Swap(i, j int)  
+   <variant> Exchange(i, j int)  
+   <variant>Move(i, j int)  
+   <variant> Shift(i, j int)  
+   <variant> Replace(i, j int)  
+
+
+
+<question> Какой алгоритм сортировки используется в стандартной реализации sort.Sort()?  
+    <variant> QuickSort  
+    <variant> BubbleSort  
+    <variant> MergeSort  
+    <variant> HeapSort  
+    <variant> RadixSort  
+
+
+
+<question> Какой метод из пакета sort сохраняет относительный порядок элементов при сортировке?  
+    <variant> sort.SliceStable()  
+    <variant> sort.Slice()  
+    <variant> sort.Stable()  
+    <variant> sort.Ordered()  
+    <variant> sort.SortStable()  
+
+
+
+<question> Как сортировать слайс чисел с плавающей точкой?  
+    <variant> sort.Float64s()  
+    <variant> sort.Floats()  
+    <variant> sort.Numbers()  
+    <variant> sort.Ints()  
+    <variant> sort.Doubles()  
+
+
+
+<question> Какая сложность алгоритма сортировки QuickSort в худшем случае?  
+    <variant> O(n²)  
+    <variant> O(n)  
+<variant>O(n log n)  
+    <variant>O(log n)  
+    <variant> O(1)  
+
+
+
+<question> Какой алгоритм сортировки подходит для больших объемов данных и устойчив к коллизиям?  
+    <variant> MergeSort  
+    <variant> BubbleSort  
+    <variant> QuickSort  
+    <variant> SelectionSort  
+    <variant> HeapSort  
+
+
+
+<question> Какой алгоритм сортировки проще всего реализовать, но он менее эффективен?  
+    <variant> BubbleSort  
+    <variant> MergeSort  
+    <variant> QuickSort  
+    <variant> HeapSort  
+    <variant> RadixSort  
+
+
+
+<question> Какой алгоритм сортировки использует подход "разделяй и властвуй"?  
+    <variant> MergeSort  
+    <variant> BubbleSort  
+    <variant> InsertionSort  
+    <variant> SelectionSort  
+    <variant> BucketSort  
+
+
+
+<question> Какой метод пакета sort может быть использован для обратной сортировки?  
+    <variant> sort.Reverse()  
+    <variant> sort.Descending()  
+    <variant> sort.Backward()  
+    <variant> sort.Invert()  
+    <variant> sort.Negate()  
+
+
+
+<question> Какая функция используется для сортировки карты (map) в Go?  
+    <variant> Прямая сортировка карт невозможна, сначала нужно преобразовать ключи или значения в слайс  
+    <variant> sort.MapKeys()  
+    <variant> sort.MapValues()  
+    <variant> sort.MapSort()  
+    <variant> sort.SortMap()  
+
+
+
+<question> Какой алгоритм сортировки эффективен для почти отсортированных массивов?  
+    <variant> InsertionSort  
+    <variant> QuickSort  
+    <variant> BubbleSort  
+    <variant> MergeSort  
+    <variant> HeapSort  
+
+
+
+<question> Какая функция возвращает отсортированный слайс без изменения оригинального?  
+    <variant> Такой функции нет, необходимо вручную создавать копию слайса перед сортировкой  
+    <variant> sort.CopySorted()  
+    <variant> sort.NewSorted()  
+    <variant> sort.GetSorted()  
+    <variant> sort.ImmutableSort()  
+
+
+<question> Какой метод из sort используется для сортировки пользовательских структур?  
+    <variant> sort.Sort()  
+    <variant> sort.Struct()  
+    <variant> sort.InterfaceSort()  
+    <variant> sort.UserStruct()  
+    <variant> sort.DataSort()  
+
+
+
+<question> Какой алгоритм сортировки находит минимальный элемент и перемещает его в начало массива?  
+    <variant> SelectionSort  
+    <variant> BubbleSort  
+    <variant> QuickSort  
+    <variant> MergeSort  
+    <variant> HeapSort  
+
+
+
+<question> Какой алгоритм сортировки работает путём многократного обмена соседних элементов?  
+    <variant> BubbleSort  
+    <variant> SelectionSort  
+    <variant> InsertionSort  
+    <variant> MergeSort  
+    <variant> QuickSort  
+
+
+
+<question> Какая функция Go позволяет сортировать по убыванию?  
+    <variant> sort.Sort(sort.Reverse())  
+    <variant> sort.Descending()  
+    <variant> sort.Decrease()  
+    <variant> sort.SortDescending()  
+    <variant> sort.OrderDesc()  
+
+
+
+<question> Какая особенность алгоритма HeapSort?  
+    <variant> Использование бинарной кучи для сортировки  
+    <variant> Прямое сравнение каждого элемента  
+    <variant> Рекурсивное разделение массива  
+    <variant> Итеративная обработка слайса  
+    <variant> Линейная сложность  
+
+
+
+<question> Что возвращает функция sort.Search()?  
+    <variant> Индекс первого элемента, удовлетворяющего условию  
+    <variant> Отсортированный массив  
+    <variant> Истину, если элемент найден  
+    <variant> Слайс индексов  
+    <variant> Максимальное значение в массиве  
+
+<question> Какой метод из пакета sort может сортировать по определённому ключу структуры?  
+    <variant> sort.Slice() с использованием пользовательской функции сравнения  
+    <variant> sort.KeySort()  
+    <variant> sort.Struct()  
+    <variant> sort.OrderBy()  
+    <variant> sort.SortKey()  
+
+<question> Какой тип данных необходимо использовать для реализации пользовательской сортировки в Go?  
+    <variant> Тип, реализующий интерфейс sort.Interface  
+    <variant> map  
+    <variant> chan  
+    <variant> pointer  
+    <variant> array  
+
+
+
+<question> Что делает функция sort.SearchInts()?  
+    <variant> Находит индекс числа в отсортированном слайсе  
+    <variant> Сортирует числа в слайсе  
+    <variant> Возвращает минимальное число в слайсе  
+    <variant> Проверяет, отсортирован ли слайс  
+    <variant> Находит максимальное число  
+
+
+
+<question> Какая сложность алгоритма сортировки MergeSort в среднем случае?  
+    <variant> O(n log n)  
+    <variant> O(n²)  
+    <variant> O(log n)  
+    <variant> O(n)  
+    <variant> O(1)  
+
+
+

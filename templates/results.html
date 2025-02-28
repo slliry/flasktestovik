@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .score {
+            font-size: 24px;
+            margin: 20px 0;
+            color: #666;
+        }
+        .percentage {
+            font-size: 72px;
+            margin: 30px 0;
+            font-weight: bold;
+        }
+        .percentage.good {
+            color: #4CAF50;
+        }
+        .percentage.medium {
+            color: #FFC107;
+        }
+        .percentage.bad {
+            color: #f44336;
+        }
+        .message {
+            font-size: 20px;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .message.good {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        .message.medium {
+            background-color: #fff3e0;
+            color: #ef6c00;
+        }
+        .message.bad {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        a {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ваш результат</h1>
+        <div class="score">
+            Правильных ответов: {{ score }} из {{ total }}
+        </div>
+        {% set percentage = (score/total*100)|round %}
+        <div class="percentage {{ 'good' if percentage >= 70 else 'medium' if percentage >= 40 else 'bad' }}">
+            {{ "%.1f"|format(percentage) }}%
+        </div>
+        <div class="message {{ 'good' if percentage >= 70 else 'medium' if percentage >= 40 else 'bad' }}">
+            {% if percentage >= 70 %}
+                Отличный результат! Вы хорошо разбираетесь в теме!
+            {% elif percentage >= 40 %}
+                Неплохой результат, но есть куда расти!
+            {% else %}
+                Рекомендуем повторить материал и попробовать снова.
+            {% endif %}
+        </div>
+        <a href="{{ url_for('index') }}">Пройти тест заново</a>
+    </div>
+</body>
+</html>

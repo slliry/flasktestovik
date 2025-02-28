@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовик</title>
+    <style>
+        :root[data-theme="light"] {
+            --bg-color: #f5f5f5;
+            --container-bg: white;
+            --text-color: #333;
+            --secondary-text: #666;
+            --border-color: #ddd;
+            --accent-color: #4CAF50;
+            --accent-hover: #45a049;
+            --info-bg: #e8f5e9;
+            --info-color: #2e7d32;
+        }
+        
+        :root[data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --container-bg: #2d2d2d;
+            --text-color: #e0e0e0;
+            --secondary-text: #b0b0b0;
+            --border-color: #404040;
+            --accent-color: #66bb6a;
+            --accent-hover: #81c784;
+            --info-bg: #1b5e20;
+            --info-color: #a5d6a7;
+        }
+
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            transition: all 0.3s ease;
+        }
+        .container {
+            background-color: var(--container-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: var(--text-color);
+            margin-bottom: 30px;
+        }
+        .description {
+            font-size: 18px;
+            color: var(--secondary-text);
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .start-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .start-button:hover {
+            background-color: var(--accent-hover);
+        }
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: var(--info-bg);
+            border-radius: 5px;
+            color: var(--info-color);
+        }
+        .theme-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .theme-switch:hover {
+            background-color: var(--accent-hover);
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-switch" onclick="toggleTheme()">Сменить тему</button>
+    <div class="container">
+        <h1>Добро пожаловать в тестовик!</h1>
+        <div class="description">
+            <p>Этот тест поможет проверить ваши знания в области программирования и безопасности.</p>
+            <p>Вам будет предложено 25 случайных вопросов.</p>
+        </div>
+        <form method="post">
+            <button type="submit" class="start-button">Начать тест</button>
+        </form>
+        <div class="info">
+            <p>💡 На каждый вопрос дается один правильный вариант ответа</p>
+            <p>⏱️ Время не ограничено - подумайте хорошенько!</p>
+        </div>
+    </div>
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Установка темы при загрузке
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+</body>
+</html>
